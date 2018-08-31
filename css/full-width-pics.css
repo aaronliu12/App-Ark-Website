@@ -1,0 +1,479 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.fixed-top{
+    background-color: #EB3F43 !important;
+    color: white;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 700px;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white !important;
+}
+
+.ml-auto, .mx-auto{
+    margin-right: auto;
+}
+
+.menu1{
+    padding:8px;
+    padding-right:15px;
+}
+
+.navbar{
+    padding: 0rem 0rem !important;
+}
+
+.py-5{
+    text-align: center;
+}
+
+.menulogo2{
+    padding-left: 10px;
+}
+
+.moreresults{
+    color: #EB3F43;
+    font-size: 25px;
+}
+
+.shield{
+    padding-top:20px;
+    width:400px;
+
+}
+
+
+
+#upenn, #stanford, #uchicago, #brown{
+    height:200px;
+    margin-bottom: 20px;
+    
+}
+
+.shieldstable{
+    text-align: center;
+}
+
+.subheading{
+    padding-top: 30px;
+
+    
+}
+
+.consultants{
+    padding-top: 50px;
+    align-items: center;
+    
+}
+
+#richard, #huadi, #emily, #shirley, #yanyan, #james, #annie, #more{
+    height:250px;
+    margin: 10px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    
+}
+
+#richard:hover, #huadi:hover, #emily:hover, #shirley:hover{
+    margin: 10px;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+#yanyan, #james, #annie, #more{
+    margin-top: 50px;
+}
+
+ #yanyan:hover, #james:hover, #annie:hover, #more:hover{
+    margin: 10px;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    margin-top: 50px;
+}
+
+.consultants-table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#systemsub{
+    padding-top: 10px
+}
+
+.moreresults{
+    display: inline;
+}
+
+.systemheading{
+    margin-top: 100px;
+}
+
+.activity-section{
+    color:white;
+    text-align: left;
+    margin-left: 50px;
+    z-index: 100;
+}
+
+.activity-heading{
+    font-size: 80px;
+    padding-top: 250px;
+}
+
+.activity-heading2{
+    font-size: 80px;
+}
+
+.nameandschool{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.more{
+    position: absolute;
+}
+
+#middle-more{
+    position: absolute;
+    top: 150px;
+    left:80px;
+    color:black;
+}
+
+#middle-more:hover{
+    position: absolute;
+    top: 150px;
+    left:80px;
+    color:#EB3F43;
+}
+
+
+#committee{
+    padding-top: 30px;
+}
+
+#firstrole, #secondrole, #thirdrole, #fourthrole{
+    height:150px;
+    width: 250px;
+    margin: 10px;
+    opacity: .9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rolestable{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px
+}
+
+.roles{
+    position: relative;
+}
+
+.role-description{
+    position: absolute;
+    top:50px;
+    width: 100%
+}
+
+#secondrole{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.center-icon{
+    display:inline-block;
+}
+
+.center-description{
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.centerstable{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+#inner-slant{
+    width:20%;
+    font-size: 3rem;
+    color: #EB3F43;
+}
+
+.s4{
+    margin:auto;
+}
+
+.resources-table{
+    margin:auto;
+}
+
+.resource{
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.56);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+
+@media all and (min-width:960px) and (max-width: 1024px) {
+    #committee{
+        height:500px;
+    }
+    #richard, #huadi, #emily, #shirley, #yanyan, #james, #annie, #more{
+        height: 200px;
+    }
+    
+    h4{
+        font-size: 1rem;
+    }
+    
+    h2{
+        font-size:1.5rem;
+    }
+    
+    #firstrole, #secondrole, #thirdrole, #fourthrole{
+        height:120px;
+        width:200px;
+    }
+    
+    #middle-logo{
+        height:100px;
+    }
+    
+    
+}
+
+@media all and (min-width:769px) and (max-width: 959px) {
+    #committee{
+        height:450px;
+    }
+    #richard, #huadi, #emily, #shirley, #yanyan, #james, #annie, #more{
+        height: 175px;
+    }
+    
+    h4{
+        font-size: .75rem;
+    }
+    
+    h2{
+        font-size:1.25rem;
+    }
+    
+    #firstrole, #secondrole, #thirdrole, #fourthrole{
+        height:100px;
+        width:170px;
+    }
+    
+    #middle-logo{
+        height:80px;
+    }
+}
+
+@media all and (min-width:569px) and (max-width: 768px) {
+      #committee{
+        height:450px;
+    }
+    #richard, #huadi, #emily, #shirley, #yanyan, #james, #annie, #more{
+        height: 175px;
+    }
+    
+    
+    h4{
+        font-size: .75rem;
+    }
+    
+    h2{
+        font-size:1.25rem;
+    }
+    
+    #firstrole, #secondrole, #thirdrole, #fourthrole{
+        height:100px;
+        width:170px;
+    }
+    
+    #middle-logo{
+        height:80px;
+    }
+    
+    .center-description{
+        margin-right:0px;
+        width:150px !important;
+    }
+}
+
+@media all and (min-width:481px) and (max-width: 568px) {
+    #committee{
+        height:400px;
+    }
+    #richard, #huadi, #emily, #shirley, #yanyan, #james, #annie, #more{
+        height: 140px;
+    }
+    
+    h4{
+        font-size: .75rem;
+    }
+    
+    h2{
+        font-size:1.25rem;
+    }
+    
+    #firstrole, #secondrole, #thirdrole, #fourthrole{
+        height:80px;
+        width:125px;
+    }
+    
+    #middle-logo{
+        height:30px;
+    }
+    
+    .center-description{
+        margin-right:0px;
+        width:125px !important;
+    }
+}
+
+@media all and (min-width:321px) and (max-width: 480px) {
+      #committee{
+        height:200px;
+    }
+    #richard, #huadi, #emily, #shirley, #yanyan, #james, #annie, #more{
+        height: 60px;
+    }
+    
+    .activity-heading{
+        font-size:1.5rem;
+    }
+    .activity-heading2{
+        font-size:1.5rem;
+    }
+    
+    h4{
+        font-size: .5rem;
+    }
+    
+    h2{
+        font-size:.75rem;
+    }
+    h6{
+        font-size:.75rem;
+    }
+    h3{
+        font-size: .8rem;
+    }
+    h5{
+        font-size:.5rem;
+    }
+    
+    #firstrole, #secondrole, #thirdrole, #fourthrole{
+        height:50px;
+        width:75px;
+        margin:2px;
+    }
+    
+    #middle-logo{
+        height:30px;
+    }
+    
+    .center-description{
+        margin-right:0px;
+        width:75px !important;
+    }
+    
+    #upenn, #stanford, #uchicago, #brown{
+        height:100px;
+    }
+    .role-description{
+        top:10px;
+    }
+    .roles-section{
+        height:800px !important;
+    }
+    .team-section{
+        height:500px !important;
+    }
+    
+    #middle-more{
+        top:80px;
+        left:20px;
+    }
+    
+    .table td, .table th{
+        padding: 0rem;
+    }
+}
+
+@media all and (min-width:0px) and (max-width: 320px) {
+  /* put your css styles in here */
+}
