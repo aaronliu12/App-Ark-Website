@@ -26,45 +26,66 @@
       <link rel="stylesheet" href="css/style.css">
     
     <script src="myscripts.js"></script>
+      <script src="js/menuview.js"></script>
 
   </head>
 
   <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+<section style="height:56px; margin-top:-56px;">
+  <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container menu2">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+        <a class="nav-link" href="index.html"><img class="menulogo2" src="assets/app-ark%20logo2.png" height="35px"></a>    
+          <ul class="navbar-nav ml-auto top-menu">
             <li class="nav-item menu1">
-              <a class="nav-link" href="#">过往结果
+              <a class="nav-link links1" href="#">EN
               </a>
             </li>
             <li class="nav-item menu1">
-              <a class="nav-link" href="#">关于我们</a>
+              <a class="nav-link links1" href="ark.pyeducation.com">登入</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+      </section>
+  
+      <nav class="navbar navbar-expand-lg second-bar float-top">
+      <div class="container"> 
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto lowermenu">
+            <li class="nav-item menu1">
+              <a class="nav-link links2" href="results.html">过往结果
+              </a>
             </li>
             <li class="nav-item menu1">
-              <a class="nav-link" href="#">凭远服务</a>
-            </li>
-              <li class="nav-item menu2">
-              <a class="nav-link" href="index.html"><img src="assets/shield.png" height="35px"><img class="menulogo2" src="assets/App-ark%20Logo.png" height="35px"></a>
+              <a class="nav-link links2" href="#">关于我们</a>
             </li>
             <li class="nav-item menu1">
-              <a class="nav-link" href="#">申请系统</a>
+              <a class="nav-link links2" href="#">凭远服务</a>
             </li>
             <li class="nav-item menu1">
-              <a class="nav-link" href="#">凭远专栏</a>
+              <a class="nav-link links2" href="#">申请系统</a>
             </li>
             <li class="nav-item menu1">
-              <a class="nav-link" href="contact.html">联系我们</a>
+              <a class="nav-link links2" href="#">凭远专栏</a>
+            </li>
+            <li class="nav-item menu1">
+              <a class="nav-link links2" href="contact.html">联系我们</a>
+            </li>
+              <li class="nav-item menu1">
+              <a class="nav-link links2" href="#">凭远俱乐部</a>
+            </li>
+              <li class="nav-item menu1">
+              <a class="nav-link links2" href="#">加入我们</a>
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
+          </div>
+      </nav>
 
 <header>
   <div class="overlay"></div>
@@ -73,8 +94,10 @@
   </video>
   <div class="container h-100">
     <div class="d-flex text-center h-100">
-      <div class="my-auto w-100 text-white">
-        <img src="assets/App-ark%20Logo.png" height="150px" id="middle-logo"/>
+      <div class="my-auto w-100 text-white middle-logo">
+        <div class="title-page"><h1 id="titlepage1"><span class="underline">改</span>变</h1>
+            <h1 id="titlepage2"><span class="underline">22</span>年后的世界</h1>
+        <h5 id="titlepage3">WORK HARD &bull; DREAM BIG<div id="line"></div></h5></div>  
       </div>
     </div>
   </div>
@@ -85,7 +108,7 @@
     <section class="py-5">
       <div class="container">
         <h1>过往录取结果</h1>
-        <div><a class="nav-link moreresults" href="#"><span class="plus-sign"><img src="assets/ic_control_point.png" height="20px;"></span> 更多结果</a></div> 
+        <div><a class="nav-link moreresults" href="results.html"><span class="plus-sign"><img src="assets/ic_control_point.png" height="20px;"></span> 更多结果</a></div> 
         <div>
         <table class="shieldstable">
             <tr>
@@ -125,15 +148,15 @@
         <div class="subheading"><h5>不论你何时加入凭远，你都会在加入的第一天获得最优质的资源。</h5></div>
         <table class="resources-table">
     <tr>
-      <td scope="col" class="resource"><img src="assets/Image1.png" style="height:300px;"><div class="overlay"></div></td>
-      <td scope="col" class="resource"><img src="assets/Image2.png" style="height:300px;"></td>
-      <td scope="col" class="resource"><img src="assets/Image3.png" style="height:300px;"></td>
+      <td scope="col" class="resource"><div class="overlay"><h5 class="resource-subheading">我们最重要的理念在于帮助每一位学生在申请过程中有所提升。</h5></div><img src="assets/Image1.png" style="height:300px;" id="resource1"><h4 class="resource-heading">注重成长的教育理念</h4></td>
+      <td scope="col" class="resource"><div class="overlay"></div><img src="assets/Image2.png" style="height:300px;" id="resource2"><h4 class="resource-heading">业内顶级的顾问</h4></td>
+      <td scope="col" class="resource"><div class="overlay"></div><img src="assets/Image3.png" style="height:300px;" id="resource3"><h4 class="resource-heading">更高的顾问学生配比</h4></td>
     </tr>
 
     <tr>
-      <td scope="row" class="resource"><img src="assets/Image4.png" style="height:300px;"></td>
-      <td class="resource"><img src="assets/Image5.png" style="height:300px;"></td>
-      <td class="resource"><img src="assets/Image6.png" style="height:300px;"></td>
+      <td scope="row" class="resource"><div class="overlay"></div><img src="assets/Image4.png" style="height:300px;" id="resource4"><h4 class="resource-heading">完善的服务模式</h4></td>
+      <td class="resource"><div class="overlay"></div><img src="assets/Image5.png" style="height:300px;" id="resource5"><h4 class="resource-heading">独特的课外活动策划</h4></td>
+      <td class="resource"><div class="overlay"></div><img src="assets/Image6.png" style="height:300px;" id="resource6"><h4 class="resource-heading">严格的制度保障</h4></td>
     </tr>
 
 </table>

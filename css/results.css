@@ -1,0 +1,63 @@
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    color: grey;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    color: #EB3F43 !important;
+}
+
+.results-header{
+    color: gray;
+}
+
+.story-results{
+    background: none;
+    border: none;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+#panel1{
+    display: block;
+}
+
+.accordion-block{
+    text-align: left;
+    width:10%;
+    padding-right: 20px;
+    padding-top: 40px;
+    
+}
+
+
+.results-image{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 70%;
+    position: absolute;
+    
+}
+
+#results2018, #results2017, #results2016, #results2015{
+    width: 100%;
+}
+
+#results2017, #results2016, #results2015{
+    display: none;
+}

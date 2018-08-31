@@ -23,7 +23,7 @@ body {
 }
 
 .fixed-top{
-    background-color: #EB3F43 !important;
+    background-color: #B1030E !important;
     color: white;
 }
 
@@ -62,22 +62,77 @@ header .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.28);
   opacity: 0.5;
   z-index: 1;
 }
 
-.navbar-dark .navbar-nav .nav-link{
-    color: white !important;
+.navbar-nav .nav-link{
+    color: white;
 }
 
-.ml-auto, .mx-auto{
+.lowermenu{
+    margin-right: auto !important;
+}
+
+.menu2{
+    max-width: 1500px;
+}
+
+.second-bar{
+    position: fixed;
+    top: 56px;
+    max-width: 1500px;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    width:100%;
+}
+
+.ml-auto{
+    margin-right: 0px;
+}
+
+.mx-auto{
     margin-right: auto;
+}
+
+.top-menu{
+    flex-direction: row !important;
+}
+
+.middle-logo{
+    text-align: left;
+}
+
+.title-page{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#titlepage1, #titlepage2{
+    font-size: 5em;
+    font-weight: 400;
+    margin:0px
+}
+
+#titlepage3{
+    margin-top: 60px;
 }
 
 .menu1{
     padding:8px;
     padding-right:15px;
+}
+
+#line{
+    width: 100px;
+    color: white;
+    display: inline-block;
+    border: solid white 2px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 10px;
 }
 
 .navbar{
@@ -93,7 +148,7 @@ header .overlay {
 }
 
 .moreresults{
-    color: #EB3F43;
+    color: #B1030E;
     font-size: 25px;
 }
 
@@ -103,6 +158,9 @@ header .overlay {
 
 }
 
+.underline{
+    border-bottom: solid white 10px;
+}
 
 
 #upenn, #stanford, #uchicago, #brown{
@@ -157,6 +215,10 @@ header .overlay {
     margin-right: auto;
 }
 
+.links1{
+    color: white !important;
+}
+
 #systemsub{
     padding-top: 10px
 }
@@ -174,6 +236,9 @@ header .overlay {
     text-align: left;
     margin-left: 50px;
     z-index: 100;
+    margin-top: -700px;
+    position: absolute;
+    display: none;
 }
 
 .activity-heading{
@@ -205,7 +270,7 @@ header .overlay {
     position: absolute;
     top: 150px;
     left:80px;
-    color:#EB3F43;
+    color:#B1030E;
 }
 
 
@@ -263,7 +328,7 @@ header .overlay {
 #inner-slant{
     width:20%;
     font-size: 3rem;
-    color: #EB3F43;
+    color: #B1030E;
 }
 
 .s4{
@@ -276,14 +341,35 @@ header .overlay {
 
 .resource{
     position: relative;
+    padding: 0px;
+    padding-right: 10px;
+}
+
+.resource-heading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.resource-subheading{
+    color:white;
+    position: absolute;
+    top: 40%;
+    margin: 10px;
 }
 
 .overlay{
-    background-color: rgba(0, 0, 0, 0.56);
+    background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 100;
+    width: 97%;
+    height: 80%;
+    z-index: 1001;
+}
+
+@media all and (max-width: 991px) {
+    .second-bar{
+        background-color: #B1030E !important;
+    }   
+    
 }
 
 
@@ -310,6 +396,14 @@ header .overlay {
     
     #middle-logo{
         height:100px;
+    }
+    
+    #resource1, #resource2, #resource3, #resource4, #resource5, #resource6{
+        height: 300px !important;
+    }
+    
+    .overlay{
+        height:83%;
     }
     
     
@@ -339,6 +433,11 @@ header .overlay {
     #middle-logo{
         height:80px;
     }
+    
+    #resource1, #resource2, #resource3, #resource4, #resource5, #resource6{
+        height: 250px !important;
+    }
+    
 }
 
 @media all and (min-width:569px) and (max-width: 768px) {
@@ -371,6 +470,15 @@ header .overlay {
         margin-right:0px;
         width:150px !important;
     }
+    
+    #resource1, #resource2, #resource3, #resource4, #resource5, #resource6{
+        height: 200px !important;
+    }
+    
+    .overlay{
+        height:76%;
+        width:96%;
+    }
 }
 
 @media all and (min-width:481px) and (max-width: 568px) {
@@ -401,6 +509,10 @@ header .overlay {
     .center-description{
         margin-right:0px;
         width:125px !important;
+    }
+    
+    #resource1, #resource2, #resource3, #resource4, #resource5, #resource6{
+        height: 100px !important;
     }
 }
 
@@ -471,6 +583,15 @@ header .overlay {
     
     .table td, .table th{
         padding: 0rem;
+    }
+    
+    #resource1, #resource2, #resource3, #resource4, #resource5, #resource6{
+        height: 100px !important;
+    }
+    
+    .overlay{
+        width:90%;
+        height: 63%;
     }
 }
 
