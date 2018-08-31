@@ -1,12 +1,5 @@
-# [Start Bootstrap - Full Width Pics](https://startbootstrap.com/template-overviews/full-width-pics/)
+# [App-Ark Website](https://startbootstrap.com/template-overviews/full-width-pics/)
 
-[Full Width Pics](http://startbootstrap.com/template-overviews/full-width-pics/) is an HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features numerous full width background image content sections.
-
-## Preview
-
-[![Full Width Pics Preview](https://startbootstrap.com/assets/img/templates/full-width-pics.jpg)](https://blackrockdigital.github.io/startbootstrap-full-width-pics/)
-
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-full-width-pics/)**
 
 ## Status
 
