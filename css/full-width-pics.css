@@ -82,11 +82,33 @@ header .overlay {
 .second-bar{
     position: fixed;
     top: 56px;
-    max-width: 1500px;
+    max-width: 100%;
     z-index: 10000;
     background-color: rgba(0, 0, 0, 0);
     text-align: center;
     width:100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.00) 0%, #000000 100%);
+}
+
+.overlay-words{
+    color: white;
+    top: 25%;
+    position: absolute;
+    width:100%
+}
+
+.see-more{
+    margin-top: 30%;
+    margin-left: 50%;
+    display:none;
+}
+
+.overlay-box{
+    border:solid;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .ml-auto{
@@ -154,7 +176,10 @@ header .overlay {
 
 .shield{
     padding-top:20px;
-    width:400px;
+    width:250px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
 
 }
 
@@ -171,6 +196,7 @@ header .overlay {
 
 .shieldstable{
     text-align: center;
+    display: inline;
 }
 
 .subheading{
@@ -199,6 +225,10 @@ header .overlay {
     filter: grayscale(0%);
 }
 
+.links2:hover{
+    border-bottom: solid white;
+}
+
 #yanyan, #james, #annie, #more{
     margin-top: 50px;
 }
@@ -223,7 +253,7 @@ header .overlay {
     padding-top: 10px
 }
 
-.moreresults{
+.moreresults2{
     display: inline;
 }
 
@@ -332,7 +362,8 @@ header .overlay {
 }
 
 .s4{
-    margin:auto;
+    margin-top: 20px;
+    
 }
 
 .resources-table{
@@ -342,7 +373,8 @@ header .overlay {
 .resource{
     position: relative;
     padding: 0px;
-    padding-right: 10px;
+    display: inline-block;
+    margin:10px;
 }
 
 .resource-heading{
@@ -353,17 +385,102 @@ header .overlay {
 .resource-subheading{
     color:white;
     position: absolute;
-    top: 40%;
     margin: 10px;
+    display: none;
+    text-align: left;
 }
 
 .overlay{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
-    width: 97%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     z-index: 1001;
 }
+
+.role-button{
+    cursor: pointer;
+}
+
+.role-box{
+    margin-top: 40px;
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    color:#B1030E
+}
+
+#role-box1, #role-box2, #role-box3, #role-box4{
+    display: none;
+}
+
+.header-div{
+    position: relative;
+    margin-top: -25px;
+}
+
+#header-overlay{
+    background-color: rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    color:white;    
+        
+}
+
+.header-title{
+    bottom:0px;
+    left: 100px;
+    position: absolute;
+}
+
+.qrcodes{
+    border-right: solid white 1px;
+    width: 30%;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: right;
+    display: initial;
+}
+
+#code1{
+    margin:10px;
+}
+
+.tabs{
+    display: inline-table;
+    color: white;
+}
+
+.linkheader{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.linkdata{
+    text-align: left;
+    color: #ABABAB;
+}
+
+.linkstable{
+    display: inline-table;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.linkstable2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+th{
+    font-size: 22px;
+}
+
 
 @media all and (max-width: 991px) {
     .second-bar{
@@ -371,6 +488,7 @@ header .overlay {
     }   
     
 }
+
 
 
 @media all and (min-width:960px) and (max-width: 1024px) {

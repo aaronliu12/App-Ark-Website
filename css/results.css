@@ -8,7 +8,7 @@
     border: none;
     outline: none;
     transition: 0.4s;
-    margin-bottom: 10px;
+    border-right: solid;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -39,7 +39,7 @@
 
 .accordion-block{
     text-align: left;
-    width:10%;
+    width:100%;
     padding-right: 20px;
     padding-top: 40px;
     
@@ -48,9 +48,9 @@
 
 .results-image{
     margin-top: 20px;
-    margin-left: 100px;
-    width: 70%;
-    position: absolute;
+    margin-left: 120px;
+    width: 80%;
+    margin-top: -250px;
     
 }
 
@@ -61,3 +61,4 @@
 #results2017, #results2016, #results2015{
     display: none;
 }
+

@@ -23,53 +23,81 @@
   </head>
 
   <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+<section style="height:56px; margin-top:-56px;">
+  <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container menu2">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+        <a class="nav-link" href="index.html"><img class="menulogo2" src="assets/app-ark%20logo2.png" height="35px"></a>    
+          <ul class="navbar-nav ml-auto top-menu">
             <li class="nav-item menu1">
-              <a class="nav-link" href="#">过往结果
+              <a class="nav-link links1" href="#">EN
               </a>
             </li>
             <li class="nav-item menu1">
-              <a class="nav-link" href="#">关于我们</a>
+              <a class="nav-link links1" href="https://www.ark.pyeducation.com">登入</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+      </section>
+  
+      <nav class="navbar navbar-expand-lg second-bar float-top">
+      <div class="container"> 
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto lowermenu">
+            <li class="nav-item menu1">
+              <a class="nav-link links2" href="results.html">过往结果
+              </a>
             </li>
             <li class="nav-item menu1">
-              <a class="nav-link" href="#">凭远服务</a>
-            </li>
-              <li class="nav-item menu2">
-              <a class="nav-link" href="index.html"><img src="assets/shield.png" height="35px"><img class="menulogo2" src="assets/App-ark%20Logo.png" height="35px"></a>
+              <a class="nav-link links2" href="#">关于我们</a>
             </li>
             <li class="nav-item menu1">
-              <a class="nav-link" href="#">申请系统</a>
+              <a class="nav-link links2" href="#">凭远服务</a>
             </li>
             <li class="nav-item menu1">
-              <a class="nav-link" href="#">凭远专栏</a>
+              <a class="nav-link links2" href="#">申请系统</a>
             </li>
             <li class="nav-item menu1">
-              <a class="nav-link" href="contact.html">联系我们</a>
+              <a class="nav-link links2" href="#">凭远专栏</a>
+            </li>
+            <li class="nav-item menu1">
+              <a class="nav-link links2" href="contact.html">联系我们</a>
+            </li>
+              <li class="nav-item menu1">
+              <a class="nav-link links2" href="#">凭远俱乐部</a>
+            </li>
+              <li class="nav-item menu1">
+              <a class="nav-link links2" href="#">加入我们</a>
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
-    <!-- Content section -->
+          </div>
+      </nav>
+    <div class="header-div">
+        <img src="assets/header-image.png">
+        <div id="header-overlay">
+            <h1 class="header-title">过往成绩</h1>
+        </div>
+    </div>
+          
+        
     <section class="py-5" id="tables-section">
-      <div class="container" style="height:1300px;">
-          <button class="story-results" onclick="stories(this)"><h5 class="results-header active">过往成绩</h5></button>
+      <div class="container">
+          <button class="story-results" onclick="stories(this)"><h5 class="results-header active">	过往成绩</h5></button>
           <button class="story-results" onclick="stories(this)"><h5 class="results-header">学生案列</h5></button>
                 <div class="accordion-block">
-            <div class="results-image"><div><h5>大学</h5></div><img src="assets/2018-results.png" id="results2018"><img src="assets/6c25046d64ade1e601d4b5920847575234ab3844.png" id="results2017"><img src="assets/6c25046d64ade1e601d4b5920847575234ab3844.png" id="results2016"><img src="assets/961d01362a6455a5d4e8cb777737b4d6debbe029.png" id="results2015"></div>
-          <button class="accordion active" onclick="accordion1(this)">2018</button>
+                              <button class="accordion active" onclick="accordion1(this)">2018</button>
             <button class="accordion" onclick="accordion1(this)">2017</button>
 
             <button class="accordion" onclick="accordion1(this)">2016</button>
             <button class="accordion" onclick="accordion1(this)">2015</button>
+            <div class="results-image"><div><h5>大学</h5></div><img src="assets/2018-results.png" id="results2018"><img src="assets/6c25046d64ade1e601d4b5920847575234ab3844.png" id="results2017"><img src="assets/6c25046d64ade1e601d4b5920847575234ab3844.png" id="results2016"><img src="assets/961d01362a6455a5d4e8cb777737b4d6debbe029.png" id="results2015"></div>
+
 
           </div>
           
