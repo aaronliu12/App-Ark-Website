@@ -88,25 +88,32 @@
         
     <section class="py-5" id="tables-section">
       <div class="container">
-          <button class="story-results" onclick="stories(this)"><h5 class="results-header active">	过往成绩</h5></button>
+          <div class="sidebar">
+            <button class="story-results active" onclick="stories(this)"><h5 class="results-header active">	过往成绩</h5></button>
           <button class="story-results" onclick="stories(this)"><h5 class="results-header">学生案列</h5></button>
+          
+          </div>
+
                 <div class="accordion-block">
                               <button class="accordion active" onclick="accordion1(this)">2018</button>
             <button class="accordion" onclick="accordion1(this)">2017</button>
 
             <button class="accordion" onclick="accordion1(this)">2016</button>
-            <button class="accordion" onclick="accordion1(this)">2015</button>
-            <div class="results-image"><div><h5>大学</h5></div><img src="assets/2018-results.png" id="results2018"><img src="assets/6c25046d64ade1e601d4b5920847575234ab3844.png" id="results2017"><img src="assets/6c25046d64ade1e601d4b5920847575234ab3844.png" id="results2016"><img src="assets/961d01362a6455a5d4e8cb777737b4d6debbe029.png" id="results2015"></div>
+            <button class="accordion" onclick="accordion1(this)">2015</button></div>
+
+            <div class="results-image">   <img src="assets/2018-results.png" id="results2018"><img src="assets/6c25046d64ade1e601d4b5920847575234ab3844.png" id="results2017"><img src="assets/6c25046d64ade1e601d4b5920847575234ab3844.png" id="results2016"><img src="assets/961d01362a6455a5d4e8cb777737b4d6debbe029.png" id="results2015"></div>
 
 
-          </div>
           
       </div>
     </section>
     <section class="py-5" id="stories-section" style="display:none;">
-      <div class="container" style="height:1300px;">
+      <div class="container" >
+          <div class="sidebar">
           <button class="story-results" onclick="stories(this)"><h5 class="results-header">过往成绩</h5></button>
-          <button class="story-results" onclick="stories(this)"><h5 class="results-header active">学生案列</h5></button>
+          <button class="story-results active" onclick="stories(this)"><h5 class="results-header active">学生案列</h5></button>
+          </div>
+          
           
       </div>
     </section>
@@ -114,7 +121,173 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; App Ark 2018</p>
+          <div class="qrcodes">
+            <img src="assets/2-1.jpg" style="height:100px;" id="code1"> 
+            <img src="assets/2-2.jpg" style="height:100px;" id="code2">
+          </div>
+          <div class="tabs">
+            <table class="linkstable">
+              <tr>
+                <th class="linkheader">
+                    <a href="aboutus.html" style="color:white">关于我们</a>
+                  </th>
+                </tr>
+                <tr>
+                <td class="linkdata">
+                    公司简介
+                  </td>
+                </tr>
+                <tr>
+                 <td class="linkdata">
+                    凭远态度 
+                  </td>
+                </tr>
+                <tr>
+                  <td class="linkdata">
+                    凭远优势
+                  </td>
+                </tr>
+              </table>
+              <table class="linkstable">
+              <tr>
+                <th class="linkheader">
+                    <a href="services.html" style="color:white">凭远服务</a>
+                  </th>
+                </tr>
+                <tr>
+                <td class="linkdata">
+                   服务模式
+                  </td>
+                </tr>
+                <tr>
+                 <td class="linkdata">
+                  顾问团队
+                  </td>
+                </tr>
+                <tr>
+                  <td class="linkdata">
+                    活动资源
+                  </td>
+                </tr>
+              </table>
+              
+                <table class="linkstable">
+              <tr>
+                <th class="linkheader">
+                    <a href="clubs.html" style="color:white">凭远俱乐部</a>
+                  </th>
+                </tr>
+                <tr>
+                <td class="linkdata">
+                   凭远家委会
+                  </td>
+                </tr>
+                <tr>
+                 <td class="linkdata">
+                  凭远校友会
+                  </td>
+                </tr>
+              </table>
+                <table class="linkstable">
+              <tr>
+                <th class="linkheader">
+                    <a href="joinus.html" style="color:white">加入我们</a>
+                  </th>
+                </tr>
+                <tr>
+                <td class="linkdata">
+                   工作体验
+                  </td>
+                </tr>
+                <tr>
+                 <td class="linkdata">
+                  职位信息
+                  </td>
+                </tr>
+              </table>
+                <table class="linkstable">
+              <tr>
+                <th class="linkheader">
+                    分享到
+                  </th>
+                </tr>
+                <tr>
+                <td class="linkdata">
+                   <img src="assets/tencent_wechat_1188703_easyicon.net.svg">
+                    <img src="assets/tencent_QQ_1188698_easyicon.net.svg">
+                    <img src="assets/sina_weibo_1188691_easyicon.net.svg">   
+                  </td>
+                </tr>
+
+              </table>
+              
+              <br>
+              
+            <table class="linkstable">
+              <tr>
+                <th class="linkheader">
+                    <a href="results.html" style="color:white">过往结果</a>
+                  </th>
+                </tr>
+                <tr>
+                <td class="linkdata">
+                   录取结果
+                  </td>
+                </tr>
+                <tr>
+                 <td class="linkdata">
+                  学生案例
+
+                  </td>
+                </tr>
+              </table>
+            <table class="linkstable">
+              <tr>
+                <th class="linkheader">
+                    <a href="system.html" style="color:white">申请系统</a>
+                  </th>
+                </tr>
+              </table>
+              
+            <table class="linkstable">
+              <tr>
+                <th class="linkheader">
+                    <a href="corner.html" style="color:white">凭远专栏</a>
+                  </th>
+                </tr>
+                <tr>
+                <td class="linkdata">
+                  申请经验
+                  </td>
+                </tr>
+                <tr>
+                 <td class="linkdata">
+                  凭远驾校
+                  </td>
+                </tr>
+              </table>
+            <table class="linkstable" style="width:250px;">
+              <tr>
+                <th class="linkheader">
+                    <a href="contact.html" style="color:white">联系我们</a>
+                  </th>
+                </tr>
+                <tr>
+                <td class="linkdata">
+                  上海总部地址：上海市徐汇区漕溪北路45号徐汇BASE（上海航空科技大厦）20楼 
+                  </td>
+                </tr>
+                <tr>
+                 <td class="linkdata">
+                  联系电话：021-54270935
+                  </td>
+                </tr>
+              </table>
+
+          </div>
+
+
+
       </div>
       <!-- /.container -->
     </footer>

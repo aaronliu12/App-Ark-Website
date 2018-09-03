@@ -99,7 +99,7 @@ function stories(item){
         if(document.getElementById("tables-section").style.display != "block"){
             document.getElementById("tables-section").style.display = "block";
             document.getElementById("stories-section").style.display = "none";
-            item.classList.add("active");
+            
         }
         
     }

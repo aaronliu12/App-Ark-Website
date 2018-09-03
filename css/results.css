@@ -3,18 +3,17 @@
     color: grey;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
-    border-right: solid;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
     color: #EB3F43 !important;
 }
+
 
 .results-header{
     color: gray;
@@ -23,6 +22,14 @@
 .story-results{
     background: none;
     border: none;
+    display: inherit;
+    padding-bottom: 20px;
+}
+
+.story-results.active{
+    background: none;
+    border: none;
+    display: inherit;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -42,15 +49,17 @@
     width:100%;
     padding-right: 20px;
     padding-top: 40px;
+    text-align: right;
+    margin-top: -140px;
     
 }
 
 
 .results-image{
     margin-top: 20px;
-    margin-left: 120px;
-    width: 80%;
-    margin-top: -250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
     
 }
 
@@ -62,3 +71,9 @@
     display: none;
 }
 
+.sidebar{
+    margin-top: 50px;
+    border-right: solid gray;
+    width:10%;
+    padding-bottom:20px;
+}
