@@ -27,8 +27,7 @@
 }
 
 .accordion-block{
-    text-align: center;
-    padding-right: 20px;
+    text-align: left;
     padding-top: 40px;
     
 }
@@ -75,3 +74,21 @@
     margin-right: 30px;
     margin-top: 30px;
 }
+
+.map-image{
+    width: 100%;
+}
+
+.address-left{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.address-right{
+    width: 50%;
+    display: inline-block;
+    float: right;
+    text-align: right
+}
+

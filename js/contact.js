@@ -1,10 +1,15 @@
 function accordion(item){
-    
+    var items = document.getElementsByClassName("accordion");
     if(item.innerHTML == "上海办公室"){
         if(document.getElementById("panel1").style.display != "block"){
             document.getElementById("panel1").style.display = "block";
             document.getElementById("panel2").style.display = "none";
             document.getElementById("panel3").style.display = "none";
+            document.getElementById("panel4").style.display = "none";
+            items[1].classList.remove("active");
+            items[2].classList.remove("active");
+            items[3].classList.remove("active");
+            item.classList.add("active");
         }
         
     }
@@ -13,6 +18,11 @@ function accordion(item){
             document.getElementById("panel2").style.display = "block";
             document.getElementById("panel1").style.display = "none";
             document.getElementById("panel3").style.display = "none";
+            document.getElementById("panel4").style.display = "none";
+            items[0].classList.remove("active");
+            items[2].classList.remove("active");
+            items[3].classList.remove("active");
+            item.classList.add("active");
         }
         
     }
@@ -21,6 +31,24 @@ function accordion(item){
             document.getElementById("panel3").style.display = "block";
             document.getElementById("panel2").style.display = "none";
             document.getElementById("panel1").style.display = "none";
+            document.getElementById("panel4").style.display = "none";
+            items[0].classList.remove("active");
+            items[1].classList.remove("active");
+            items[3].classList.remove("active");
+            item.classList.add("active");
+        }
+        
+    }
+        if(item.innerHTML == "温州办公室"){
+        if(document.getElementById("panel4").style.display != "block"){
+            document.getElementById("panel4").style.display = "block";
+            document.getElementById("panel2").style.display = "none";
+            document.getElementById("panel1").style.display = "none";
+            document.getElementById("panel3").style.display = "none";
+            items[0].classList.remove("active");
+            items[1].classList.remove("active");
+            items[2].classList.remove("active");
+            item.classList.add("active");
         }
         
     }
