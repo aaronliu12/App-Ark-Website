@@ -1,6 +1,6 @@
 function accordion1(item){
     var items = document.getElementsByClassName("accordion");
-    if(item.innerHTML == "公司简介"){
+    if(item.firstChild.innerHTML == "公司简介"){
         if(document.getElementById("results2018").style.display != "block"){
             document.getElementById("results2018").style.display = "block";
             document.getElementById("results2017").style.display = "none";
@@ -11,7 +11,7 @@ function accordion1(item){
         }
         
     }
-    if(item.innerHTML == "凭远态度"){
+    if(item.firstChild.innerHTML == "凭远态度"){
         if(document.getElementById("results2017").style.display != "block"){
             document.getElementById("results2017").style.display = "block";
             items[0].classList.remove("active");
@@ -22,7 +22,7 @@ function accordion1(item){
         }
         
     }
-    if(item.innerHTML == "我们的优势"){
+    if(item.firstChild.innerHTML == "我们的优势"){
         if(document.getElementById("results2016").style.display != "block"){
             document.getElementById("results2016").style.display = "block";
             items[0].classList.remove("active");
