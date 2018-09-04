@@ -83,7 +83,7 @@ header .overlay {
     position: fixed;
     top: 56px;
     max-width: 100%;
-    z-index: 10000;
+    z-index: 100;
     background-color: rgba(0, 0, 0, 0);
     text-align: center;
     width:100%;

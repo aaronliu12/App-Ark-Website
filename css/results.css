@@ -11,7 +11,7 @@
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-    color: #EB3F43 !important;
+    color:  #EB3F43 !important;
 }
 
 
@@ -48,9 +48,9 @@
     text-align: left;
     width:100%;
     padding-right: 20px;
-    padding-top: 40px;
+    margin-top: -100px;
     text-align: right;
-    margin-top: -140px;
+    display: inline-block;
     
 }
 
@@ -59,7 +59,7 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 75%;
     
 }
 
@@ -76,4 +76,62 @@
     border-right: solid gray;
     width:10%;
     padding-bottom:20px;
+}
+
+.thead{
+    background-color: #ffbdc1;
+}
+
+.table{
+    margin-bottom: 100px;
+}
+
+
+.modal-sm{
+    max-width: 100%;
+}
+
+.modal-content{
+    width: 80%;
+    margin:auto;
+    margin-top: 150px;
+}
+
+.shield{
+    cursor: pointer;
+}
+
+.modal-body{
+    text-align: left;
+}
+
+.modal-head{
+    padding: 20px;
+    border-bottom: solid #B1030E;
+}
+
+.scores{
+    color: #B1030E;
+}
+
+.modal-header .close{
+    margin: 0px;
+}
+
+.modal-header{
+    display: initial !important;
+}
+
+.shield{
+    width:220px;
+    border: solid black;
+}
+
+#upenn, #stanford, #uchicago, #brown{
+    height: 180px;
+}
+
+
+.shieldstuff{
+    display: inline-block;
 }
