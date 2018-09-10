@@ -176,7 +176,7 @@ header .overlay {
 
 .shield{
     padding-top:20px;
-    width:250px;
+    width:200px;
     display: inline-block;
     padding: 10px;
     margin: 10px;
@@ -189,14 +189,15 @@ header .overlay {
 
 
 #upenn, #stanford, #uchicago, #brown{
-    height:200px;
+    height:150px;
     margin-bottom: 20px;
     
 }
 
 .shieldstable{
     text-align: center;
-    display: inline;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .subheading{
@@ -216,6 +217,7 @@ header .overlay {
     margin: 10px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    background-color: rgba(234, 230, 230, 0.43);
     
 }
 
@@ -223,6 +225,10 @@ header .overlay {
     margin: 10px;
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
+}
+
+#more{
+    width:160px;
 }
 
 .links2:hover{
@@ -292,14 +298,14 @@ header .overlay {
 #middle-more{
     position: absolute;
     top: 150px;
-    left:80px;
+    left:40px;
     color:black;
 }
 
 #middle-more:hover{
     position: absolute;
     top: 150px;
-    left:80px;
+    left:40px;
     color:#B1030E;
 }
 
@@ -402,13 +408,14 @@ header .overlay {
     cursor: pointer;
 }
 
+
 .role-box{
     margin-top: 40px;
     max-width: 70%;
     margin-right: auto;
     margin-left: auto;
     text-align: left;
-    color:#B1030E
+    color:#B1030E;
 }
 
 #role-box1, #role-box2, #role-box3, #role-box4{
@@ -717,3 +724,14 @@ th{
   /* put your css styles in here */
 }
 
+.menu-items{
+    height: 25px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    max-width: 90% !important;
+}

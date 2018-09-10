@@ -5,14 +5,12 @@ width:15%;
     border-right: solid gray;
     padding-top: 0px;
     padding-bottom: 20px;
-    margin-top: 50px;
     display: inherit;
 }
 
 .results-image{
     width:80%;
     position: relative;
-    margin-top: -200px;
     text-align: left;
     display: inherit;
     margin-left: 17%;

@@ -4,7 +4,11 @@ $(window).on('resize scroll', function() {
         $('.second-bar').css("background-color", "white");
         $('.second-bar').css("border-bottom", "solid rgba(0,0,0,.1) 5px");
         $('.links2').css("color", "black");
-
+        $(".links2").hover(function(){
+        $(this).css("border-bottom", "none");
+        }, function(){
+        $(this).css("border-bottom", "none");
+    });
         
     }
 
@@ -13,6 +17,12 @@ $(window).on('resize scroll', function() {
         $('.links2').css("color", "white");
         $('.second-bar').css("border-bottom", "none");
         $('.second-bar').css("background", "linear-gradient(0deg, rgba(0,0,0,0.00) 0%, #000000 100%)");
+        $(".links2").hover(function(){
+        $(this).css("border-bottom", "solid white");
+        }, function(){
+        $(this).css("border-bottom", "none");
+    });
+        
     }
 });
 

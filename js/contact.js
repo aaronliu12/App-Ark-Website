@@ -134,3 +134,33 @@ function stories(item){
 
     
 }
+
+
+function stories2(item){
+    if(item.firstChild.innerHTML == "服务模式"){
+        if(document.getElementById("service-section").style.display != "block"){
+            document.getElementById("service-section").style.display = "block";
+            document.getElementById("team-section").style.display = "none";
+            document.getElementById("activities-section").style.display = "none";
+        }
+        
+    }
+    if(item.firstChild.innerHTML == "顾问团队"){
+        if(document.getElementById("team-section").style.display != "block"){
+            document.getElementById("team-section").style.display = "block";
+            document.getElementById("service-section").style.display = "none";
+            document.getElementById("activities-section").style.display = "none";
+        }
+        
+    }
+    if(item.firstChild.innerHTML == "活动资源"){
+        if(document.getElementById("activities-section").style.display != "block"){
+            document.getElementById("activities-section").style.display = "block";
+            document.getElementById("team-section").style.display = "none";
+            document.getElementById("service-section").style.display = "none";
+        }
+        
+    }
+
+    
+}

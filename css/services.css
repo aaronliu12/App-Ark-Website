@@ -1,0 +1,28 @@
+#activities-section{
+    display: none;
+}
+
+.results-image{
+    text-align: left;
+}
+
+.sidebar{
+    display: inline-block;
+    float: left;
+    margin-top: 0px;
+}
+
+.shieldstuff{
+    display: inherit;
+    margin-top: 10px;
+}
+
+.results-image{
+    margin-top: 10px;
+    margin-left:10%;
+    width:80%;
+}
+
+.accordion-block{
+    margin-top: 0px;
+}
