@@ -15,14 +15,72 @@
 .shieldstuff{
     display: inherit;
     margin-top: 10px;
+    margin-left: 0px;
 }
 
 .results-image{
     margin-top: 10px;
-    margin-left:10%;
     width:80%;
 }
 
 .accordion-block{
     margin-top: 0px;
+}
+
+#results2018, #results2017, #results2016, #results2015{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+#results2018{
+    display: none;
+}
+
+.service-image{
+    width:500px;
+    float: left;
+    margin-right: 20px;
+    
+}
+
+.service-description{
+    width:300px;
+    display: inherit;
+    
+}
+
+.table-row{
+    margin:20px;
+}
+
+.person-description{
+    width: 100%;
+    font-size: 1.25rem;
+    margin-top: 100px;
+}
+
+.modal-head{
+    display: inline-block;
+    width:30%;
+    float: left;
+    border: none;
+    border-right: solid #B1030E;
+    margin-right: 40px;
+    padding-left: 30px;
+}
+
+.schools{
+    height: 150px;
+}
+
+.school{
+    text-align: center;
+    width: 20%;
+    float: right;
+    margin-top: 100px;
+}
+
+.shields-table{
+    margin-left: auto;
+    margin-right: auto;
 }

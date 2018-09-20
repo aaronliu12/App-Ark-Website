@@ -58,12 +58,13 @@ function accordion(item){
 
 function accordion1(item){
     var items = document.getElementsByClassName("accordion");
-    if(item.innerHTML == "2018"){
+    if(item.innerHTML == "2018" || item.innerHTML == "STEM"){
         if(document.getElementById("results2018").style.display != "block"){
             document.getElementById("results2018").style.display = "block";
             document.getElementById("results2017").style.display = "none";
             document.getElementById("results2016").style.display = "none";
             document.getElementById("results2015").style.display = "none";
+            document.getElementById("results2019").style.display = "none";
             items[1].classList.remove("active");
             items[2].classList.remove("active");
             items[3].classList.remove("active");
@@ -71,7 +72,7 @@ function accordion1(item){
         }
         
     }
-    if(item.innerHTML == "2017"){
+    if(item.innerHTML == "2017" || item.innerHTML == "人文社科"){
         if(document.getElementById("results2017").style.display != "block"){
             document.getElementById("results2017").style.display = "block";
             items[0].classList.remove("active");
@@ -81,10 +82,11 @@ function accordion1(item){
             document.getElementById("results2018").style.display = "none";
             document.getElementById("results2016").style.display = "none";
             document.getElementById("results2015").style.display = "none";
+            document.getElementById("results2019").style.display = "none";
         }
         
     }
-    if(item.innerHTML == "2016"){
+    if(item.innerHTML == "2016" || item.innerHTML == "商业"){
         if(document.getElementById("results2016").style.display != "block"){
             document.getElementById("results2016").style.display = "block";
             items[0].classList.remove("active");
@@ -94,10 +96,11 @@ function accordion1(item){
             document.getElementById("results2018").style.display = "none";
             document.getElementById("results2017").style.display = "none";
             document.getElementById("results2015").style.display = "none";
+            document.getElementById("results2019").style.display = "none";
         }
         
     }
-    if(item.innerHTML == "2015"){
+    if(item.innerHTML == "2015" || item.innerHTML == "内部资源"){
         if(document.getElementById("results2015").style.display != "block"){
             document.getElementById("results2015").style.display = "block";
             items[0].classList.remove("active");
@@ -107,6 +110,7 @@ function accordion1(item){
             document.getElementById("results2018").style.display = "none";
             document.getElementById("results2017").style.display = "none";
             document.getElementById("results2016").style.display = "none";
+            document.getElementById("results2019").style.display = "none";
         }
         
     }

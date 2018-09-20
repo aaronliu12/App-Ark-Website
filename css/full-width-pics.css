@@ -198,6 +198,7 @@ header .overlay {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+width: 90%;
 }
 
 .subheading{
@@ -445,11 +446,11 @@ header .overlay {
 
 .qrcodes{
     border-right: solid white 1px;
-    width: 30%;
     padding: 20px;
     padding-bottom: 40px;
     text-align: right;
     display: initial;
+    float: left;
 }
 
 #code1{

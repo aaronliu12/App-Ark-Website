@@ -1,11 +1,11 @@
 .accordion-block{
-width:15%;
     text-align: left;
     margin-top: 0px;
     border-right: solid gray;
     padding-top: 0px;
     padding-bottom: 20px;
-    display: inherit;
+    display: inline-block;
+    float: left;
 }
 
 .results-image{
@@ -16,6 +16,20 @@ width:15%;
     margin-left: 17%;
 }
 
-.accordion{
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    color: grey;
+    cursor: pointer;
+    padding: 18px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
     display: block;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    color:  #EB3F43 !important;
 }

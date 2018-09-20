@@ -72,10 +72,9 @@
 
 .sidebar{
     border-right: solid gray;
-    width:10%;
     padding-bottom:20px;
     float: left;
-    
+    padding-right: 30px;
 }
 
 .thead{
@@ -123,7 +122,7 @@
 }
 
 .shield{
-    width:220px;
+    width:200px;
     border: solid gray 2px;
     margin:15px;
 }

@@ -48,9 +48,12 @@ function rolebutton4(){
     else{
         document.getElementById("role-box4").style.display = "none";
     }
-    
 }
 
+function team(){
+    window.location.href = "services/services.html";
+    $("#service-section").css("display", "none");
+}
 
 $( "#role-button1" ).hover(
   function() {
